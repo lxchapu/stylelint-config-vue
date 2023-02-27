@@ -1,0 +1,44 @@
+{
+  "name": "@lxchapu/stylelint-config-vue",
+  "version": "1.0.1",
+  "description": "Standard stylelint config for Vue",
+  "private": false,
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "prettier": "prettier --write ."
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "keywords": [
+    "stylelint",
+    "stylelint-plugin"
+  ],
+  "author": "lxchapu",
+  "license": "MIT",
+  "devDependencies": {
+    "postcss": "^8.4.21",
+    "postcss-html": "^1.5.0",
+    "prettier": "^2.8.4",
+    "stylelint": "^15.2.0"
+  },
+  "peerDependencies": {
+    "postcss": "^8.4.21",
+    "postcss-html": "^1.5.0",
+    "prettier": "^2.8.4",
+    "stylelint": "^15.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lxchapu/stylelint-config-vue.git"
+  },
+  "dependencies": {
+    "stylelint-config-html": "^1.1.0",
+    "stylelint-config-recess-order": "^4.0.0",
+    "stylelint-config-standard-scss": "^7.0.1",
+    "stylelint-prettier": "^3.0.0"
+  }
+}
